@@ -1,0 +1,11 @@
+from tkinter import *
+root = Tk()
+root.title("Conversão")
+root.geometry("150x150")
+root.resizable(True,True)
+Label(root, text='Escolha um opção de conversão').grid(row=0)
+menufaren = Button(root, text='Celsius para Farenheit')
+menufaren.grid(row=1)
+menucelsius = Button(root, text='Farenheit para Celsius')
+menucelsius.grid(row=2)
+mainloop()
